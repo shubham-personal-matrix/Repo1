@@ -1,0 +1,21 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio / IDE local state
+.vs/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test and coverage outputs
+TestResults/
+*.trx
+*.coverage
+coverage/
+
+# NuGet and packaging artifacts
+*.nupkg
+*.snupkg
