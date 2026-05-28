@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\CommonRepo\SharedLib\SharedLib.csproj" />
+<ItemGroup>
+    <Compile Include="..\CommonRepo\SharedLib\DevelopHelper.cs"
+             Link="DevelopHelper.cs" />
   </ItemGroup>
 
   <PropertyGroup>
